@@ -471,24 +471,20 @@ Post-deployment, a comprehensive maintenance plan for **CodeCraft: Smart Contest
 
 ## Key Benefits of Using the Iterative Model for CodeCraft
 
-1. **Flexibility:**
+1. **Flexibility:**  
+   Allowed for easy adaptation based on user feedback and changing requirements.
 
-   - The iterative approach allowed for flexibility, making it easy to adapt and improve the system based on continuous user feedback and evolving requirements.
+2. **Faster Time-to-Market:**  
+   Enabled quick release of a Minimum Viable Product (MVP) with continuous improvements.
 
-2. **Faster Time-to-Market:**
+3. **User-Centric:**  
+   Frequent feedback loops ensured the system met user needs and challenges.
 
-   - By focusing on delivering a **Minimum Viable Product (MVP)** early in the development process, we were able to release functional features quickly and continuously enhance the system with new iterations.
+4. **Transparency:**  
+   Regular updates kept stakeholders informed about progress and upcoming features.
 
-3. **User-Centric:**
-
-   - The iterative model, with its frequent feedback loops, ensured that the system remained aligned with user needs and preferences, resulting in a product that directly addressed the challenges faced by participants and organizers.
-
-4. **Transparency:**
-
-   - Regular updates and reviews with stakeholders kept everyone informed about the system's progress, upcoming features, and areas requiring attention.
-
-5. **Quality:**
-   - The iterative testing and development process minimized bugs and ensured high system reliability, with each iteration undergoing rigorous testing before deployment, leading to a smoother, more stable user experience.
+5. **Quality:**  
+   Iterative testing minimized bugs and ensured a stable user experience.
 
 
 ---
