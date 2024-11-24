@@ -35,7 +35,7 @@ By integrating with platforms like Codeforces, LeetCode, and AtCoder, CodeCraft 
 
 ## SDLC Model: Iterative Model
 
-![alt text](<Screenshot 2024-11-24 172000.png>)
+![Iterative model](https://github.com/user-attachments/assets/e1671108-a389-4f02-9329-ab8c6e04ac8d)
 **Fig:** Iterative model
 
 ### Why the Iterative Model?
