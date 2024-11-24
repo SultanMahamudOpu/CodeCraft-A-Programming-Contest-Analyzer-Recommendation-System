@@ -331,75 +331,58 @@ By combining these techniques, we ensured a holistic understanding of user needs
 | TC-14            | Display Skill Gap Trends                    | Historical participant data is available           | 1. Select a participant. <br> 2. View "Skill Gap Analysis" page.               | Clear graphs showing trends in weak areas over time are displayed.                         | Pass       |
 | TC-15            | Generate Difficulty Insights for Organizers | Contest data contains problem statistics           | 1. Select a contest. <br> 2. Navigate to "Difficulty Insights" page.           | Difficulty insights are displayed, highlighting imbalances or trends.                      | Pass       |
 
-## 6. Deployment
+## Deployment
 
-### Staging Environment:
+### Staging Environment
 
-**Conduct Final Integration Tests:**
+1. **Conduct Final Integration Tests:**  
+   Perform integration testing with real contest data to ensure seamless system operation.
 
-- Perform comprehensive integration testing with real-world contest data to ensure that all system components work together seamlessly.
+2. **Load & Stress Testing:**  
+   Simulate high traffic during peak times to assess system stability under heavy usage.
 
-**Load Testing & Stress Testing:**
+3. **Test Security Protocols:**  
+   Verify that security measures (e.g., encryption, access controls) are functioning as intended.
 
-- Simulate high traffic and load during peak times (e.g., live contests) to evaluate system performance under stress and ensure the system remains stable under heavy usage.
+4. **User Acceptance Testing (UAT):**  
+   Involve real users (contest organizers, participants) to test usability and functionality in a controlled environment.
 
-**Test Security Protocols:**
+5. **Test Backup & Recovery Systems:**  
+   Simulate disaster recovery to ensure quick restoration in case of failure or data loss.
 
-- Ensure that security measures (e.g., encryption, data access controls) are functioning as intended in a real-world environment, testing for vulnerabilities.
+### Production Deployment
 
-**User Acceptance Testing (UAT) in Staging:**
+1. **Deploy Dockerized Containers:**  
+   Use Docker to ensure consistency across environments (staging and production).
 
-- Involve a small group of real users (e.g., contest organizers, participants) to test the system’s usability, functionality, and overall experience in a controlled staging environment before full production deployment.
+2. **Automate with CI/CD Pipelines (Jenkins):**  
+   Automate building, testing, and deployment with Jenkins for quicker, reliable releases.
 
-**Test Backup and Recovery Systems:**
+3. **Implement Blue-Green Deployment Strategy:**  
+   Maintain two identical environments to reduce downtime and ensure seamless updates.
 
-- Simulate disaster recovery scenarios to verify that the system can be restored quickly in case of failure or data loss.
+4. **Monitor Real-Time Performance:**  
+   Use tools like Datadog or Prometheus to monitor system health and ensure high availability.
 
----
+5. **Optimize Database Performance:**  
+   Tune the database with indexing, caching, and query optimization for efficient handling of large datasets.
 
-### Production Deployment:
+### Monitoring & Maintenance
 
-**Deploy Dockerized Containers:**
+1. **Error and Performance Monitoring:**  
+   Use Sentry, Datadog, or Prometheus for tracking errors, performance bottlenecks, and feedback.
 
-- Use Docker to package and deploy the application across different environments (e.g., staging and production) to ensure consistency and avoid environment-specific issues.
+2. **Real-Time Alerting:**  
+   Set up alerts for system failures, performance issues, or security breaches.
 
-**Automate with CI/CD Pipelines (Jenkins):**
+3. **User Feedback Collection:**  
+   Collect feedback from users through surveys or forms to address issues and feature requests.
 
-- Implement Jenkins for Continuous Integration and Continuous Deployment to automate the process of building, testing, and deploying updates to the system, ensuring quicker and more reliable releases.
+4. **Scheduled Backups & Data Integrity Checks:**  
+   Perform regular backups and checks to ensure data integrity and prevent loss.
 
-**Implement Blue-Green Deployment Strategy:**
-
-- Use a blue-green deployment strategy to reduce downtime and ensure zero disruptions by maintaining two identical production environments (one live and one staging) for a seamless transition during updates.
-
-**Monitor Real-Time Performance:**
-
-- Continuously monitor system health (e.g., uptime, server load, response time) with tools like **Datadog** or **Prometheus** to ensure high availability and low latency during live contests.
-
-**Optimize Database Performance:**
-
-- Ensure that the database is tuned for optimal performance, including proper indexing, caching, and query optimization to handle large datasets efficiently during live contests.
-
-## Monitoring & Maintenance
-
-### Error and Performance Monitoring (Sentry, Datadog, Prometheus):
-
-- Use tools like **Sentry** for error tracking and **Datadog** or **Prometheus** for real-time monitoring to capture critical errors, performance bottlenecks, and user feedback.
-
-### Real-Time Alerting:
-
-- Set up automated alerts for system failures, performance degradation, or security breaches to ensure rapid resolution and minimal disruption.
-
-### User Feedback Collection:
-
-- Continuously gather feedback from users via in-app surveys or feedback forms to identify any usability issues or feature requests, and ensure that the system evolves according to user needs.
-
-### Scheduled Backups and Data Integrity Checks:
-
-- Perform regular backups of user data, contest results, and system configurations, and ensure data integrity through regular checks to prevent data loss.
-
-### Security Audits:
-
-- Conduct periodic security audits and penetration tests to identify potential vulnerabilities and apply necessary fixes to maintain a secure environment.
+5. **Security Audits:**  
+   Conduct regular security audits and penetration tests to identify vulnerabilities and apply fixes.
 
 ## Maintenance and Continuous Improvement
 
