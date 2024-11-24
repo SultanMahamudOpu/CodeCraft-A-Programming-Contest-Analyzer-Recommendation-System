@@ -291,7 +291,7 @@ By combining these techniques, we ensured a holistic understanding of user needs
 - Use **Git** for source code management and collaborative development.
 - Employ feature-based branching for modular implementation.
 
-## 5. Testing
+### 5. Testing
 
 ### Strategies:
 
@@ -399,7 +399,7 @@ Post-deployment, a comprehensive maintenance plan for **CodeCraft: Smart Contest
 - **Security Patches**: Timely application of security patches to protect user data and prevent unauthorized access.
 - **Performance Optimization**: Continuous adjustments to improve the system’s speed and reduce latency, especially during high-traffic contest events.
 
-## Limitations
+### Limitations
 
 ### Bandwidth and Internet Dependency:
 
