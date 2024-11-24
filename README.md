@@ -240,7 +240,7 @@ By combining these techniques, we ensured a holistic understanding of user needs
 
 ### Database Schema
 
-Table 1.1: Database design
+###Table 1.1: Database design
 
 | **Entity**                 | **Attributes**                                |
 | -------------------------- | --------------------------------------------- |
@@ -256,7 +256,7 @@ Table 1.1: Database design
 
 ### Iterations Overview
 
-Table 1.2: Sprint data
+###Table 1.2: Sprint data
 
 | **Sprint** | **Goal**                                      | **Deliverable**                            |
 | ---------- | --------------------------------------------- | ------------------------------------------ |
