@@ -426,35 +426,15 @@ Post-deployment, a comprehensive maintenance plan for **CodeCraft: Smart Contest
 - **Limitation**: As the user base and contest data grow, the current infrastructure may face scalability challenges, requiring additional investment in cloud services and database solutions.
 - **Impact**: Increased system load could affect response times and the ability to handle large volumes of real-time contest data.
 
-## Future Work
+### Future Work
 
-1. **AI-Driven Personalization:**
-
-   - Implement artificial intelligence to create adaptive learning paths for participants, providing personalized recommendations and helping them focus on areas of improvement in real time.
-
-2. **Gamification Enhancements:**
-
-   - Expand gamification features such as badges, achievements, and customizable leaderboards to increase user engagement and motivation among participants.
-
-3. **Mobile Application Development:**
-
-   - Develop native mobile applications for **Android** and **iOS**, ensuring better accessibility and offline functionality, allowing users to engage with contests and track progress on the go.
-
-4. **Content Expansion:**
-
-   - Increase the variety of contest problem types, incorporating advanced topics and interactive content to challenge participants at all skill levels.
-   - Develop **augmented reality (AR)**-based simulations for more engaging and immersive problem-solving exercises.
-
-5. **Integration with Other Platforms:**
-
-   - Explore integrating **CodeCraft** with popular **Learning Management Systems (LMS)** and other competitive programming platforms to allow easy content import/export and seamless data exchange.
-
-6. **Advanced Analytics:**
-
-   - Implement deeper analytics for both participants and organizers, providing detailed insights into individual problem-solving techniques, contest effectiveness, and areas for improvement.
-
-7. **Enhanced Security:**
-   - Introduce additional security measures such as **biometric authentication** and **blockchain** technology for secure verification of participant credentials and contest data integrity.
+- **AI-Driven Personalization**: Implement AI to create adaptive learning paths and provide real-time personalized recommendations.
+- **Gamification Enhancements**: Add badges, achievements, and customizable leaderboards to boost engagement.
+- **Mobile Application Development**: Develop native mobile apps for Android and iOS to improve accessibility and offline functionality.
+- **Content Expansion**: Increase contest problem variety and develop AR-based simulations for immersive problem-solving.
+- **Integration with Other Platforms**: Integrate with LMS and competitive programming platforms for easy content sharing and data exchange.
+- **Advanced Analytics**: Provide deeper analytics on problem-solving, contest effectiveness, and areas for improvement.
+- **Enhanced Security**: Implement biometric authentication and blockchain for secure verification and data integrity.
 
 ## Key Benefits of Using the Iterative Model for CodeCraft
 
