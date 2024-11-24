@@ -74,6 +74,10 @@ By integrating with platforms like Codeforces, LeetCode, and AtCoder, CodeCraft 
 
 ### 1. Planning
 
+![Planning](https://github.com/user-attachments/assets/2e9d8341-2cff-4890-83c8-e576c86c3901)
+
+**Fig 1.2:** Planning
+
 #### **Objective:**
 
 Develop a robust, scalable, and user-centric system that enhances competitive programming experiences by providing personalized insights and recommendations for participants and actionable analytics for organizers.
@@ -226,7 +230,7 @@ By combining these techniques, we ensured a holistic understanding of user needs
 
 ![UML](https://github.com/user-attachments/assets/af103d4e-5164-4353-81dc-2c066173b43b)
 
-**Fig 1.2:** UML for CodeCraft
+**Fig 1.3:** UML for CodeCraft
 
 **1. Frontend:**
 
