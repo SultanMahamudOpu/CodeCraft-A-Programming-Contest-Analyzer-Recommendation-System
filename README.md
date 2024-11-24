@@ -425,7 +425,7 @@ Post-deployment, a comprehensive maintenance plan for **CodeCraft: Smart Contest
 
 - **Limitation**: As the user base and contest data grow, the current infrastructure may face scalability challenges, requiring additional investment in cloud services and database solutions.
 - **Impact**: Increased system load could affect response times and the ability to handle large volumes of real-time contest data.
-
+---
 ### Future Work
 
 - **AI-Driven Personalization**: Implement AI to create adaptive learning paths and provide real-time personalized recommendations.
