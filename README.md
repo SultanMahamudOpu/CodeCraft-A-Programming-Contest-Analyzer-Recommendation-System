@@ -36,7 +36,7 @@ By integrating with platforms like Codeforces, LeetCode, and AtCoder, CodeCraft 
 ## SDLC Model: Iterative Model
 
 ![Iterative model](https://github.com/user-attachments/assets/e1671108-a389-4f02-9329-ab8c6e04ac8d)
-**Fig:** Iterative model
+**Fig 1.1:** Iterative model
 
 ### Why the Iterative Model?
 
@@ -223,6 +223,10 @@ By combining these techniques, we ensured a holistic understanding of user needs
 ## 3. Design Phase
 
 ### System Architecture:
+
+![UML](https://github.com/user-attachments/assets/af103d4e-5164-4353-81dc-2c066173b43b)
+
+**Fig 1.2:** UML for CodeCraft
 
 **1. Frontend:**
 
