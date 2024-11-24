@@ -240,6 +240,8 @@ By combining these techniques, we ensured a holistic understanding of user needs
 
 ### Database Schema
 
+Table 1.1: Database design
+
 | **Entity**                 | **Attributes**                                |
 | -------------------------- | --------------------------------------------- |
 | **Users**                  | UserID, Username, Role, Email, Password       |
@@ -253,6 +255,8 @@ By combining these techniques, we ensured a holistic understanding of user needs
 - Real-time visualization of trends and metrics for participants and organizers.
 
 ### Iterations Overview
+
+Table 1.2: Sprint data
 
 | **Sprint** | **Goal**                                      | **Deliverable**                            |
 | ---------- | --------------------------------------------- | ------------------------------------------ |
@@ -293,7 +297,7 @@ By combining these techniques, we ensured a holistic understanding of user needs
 - **JUnit**: Test JavaFX frontend components.
 - **pytest**: Validate Django backend functionality.
 
-### Table 1.1: All Test
+### Table 1.3: All Test
 
 | **Phase**                         | **Objective**                               | **Tools**           |
 | --------------------------------- | ------------------------------------------- | ------------------- |
@@ -303,7 +307,7 @@ By combining these techniques, we ensured a holistic understanding of user needs
 | **User Acceptance Testing (UAT)** | Gather feedback from stakeholders.          | Surveys, Interviews |
 | **Security Testing**              | Verify encryption and secure communication. | OWASP ZAP           |
 
-### Table 1.2: Test Cases for CodeCraft: Smart Contest Analysis System
+### Table 1.4: Test Cases for CodeCraft: Smart Contest Analysis System
 
 | **Test Case ID** | **Test Case Description**                   | **Preconditions**                                  | **Test Steps**                                                                 | **Expected Result**                                                                        | **Status** |
 | ---------------- | ------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ---------- |
